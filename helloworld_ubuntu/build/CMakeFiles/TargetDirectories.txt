@@ -1,0 +1,5 @@
+/home/sj/robomasters/helloworld_ubuntu/build/CMakeFiles/edit_cache.dir
+/home/sj/robomasters/helloworld_ubuntu/build/CMakeFiles/rebuild_cache.dir
+/home/sj/robomasters/helloworld_ubuntu/build/test/CMakeFiles/edit_cache.dir
+/home/sj/robomasters/helloworld_ubuntu/build/test/CMakeFiles/rebuild_cache.dir
+/home/sj/robomasters/helloworld_ubuntu/build/test/CMakeFiles/test.dir

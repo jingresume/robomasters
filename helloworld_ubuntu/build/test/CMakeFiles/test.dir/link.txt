@@ -1,0 +1,1 @@
+g++      CMakeFiles/test.dir/test.cpp.o  -o ../../bin/test  -L/home/sj/robomasters/helloworld_ubuntu/lib -rdynamic 

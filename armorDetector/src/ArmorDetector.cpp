@@ -665,7 +665,7 @@ cv::RotatedRect ArmorDetector::chooseTarget(const std::vector<cv::RotatedRect> &
     return ret_rect;
 }
 
-cv::RotatedRect ArmorDetector::getTargetAera(const cv::Mat & src){
+cv::RotatedRect ArmorDetector::getTargetArea(const cv::Mat & src){
 	setImage(src);
 	cv::Mat contrast_left, contrast_right;
     vector<vector<Point2i> > contours_left;

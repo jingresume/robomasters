@@ -133,5 +133,8 @@ cv::RotatedRect ArmorSimple::boudingLamp(std::vector<cv::RotatedRect> & rrects)
 
 cv::RotatedRect ArmorSimple::getTargetArea(cv::Mat img)
 {
-
+    std::vector<cv::RotatedRect> rects;
+    PreProcession(img);
+    findlamp(rects);
+    return boudingLamp(rects);
 }

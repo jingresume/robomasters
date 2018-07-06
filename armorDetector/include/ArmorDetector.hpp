@@ -96,7 +96,7 @@ public:
     }
 
     void initTemplate(const cv::Mat & _template, const cv::Mat & _template_small);
-    cv::RotatedRect getTargetAera(const cv::Mat & src);
+    cv::RotatedRect getTargetArea(const cv::Mat & src);
     void setLastResult(const cv::RotatedRect & rect){
         _res_last = rect;
     }

@@ -39,10 +39,11 @@ int main( int argc, char** argv )
     RotatedRect rect;
     while(!src.empty())
     {
-        vector<cv::RotatedRect> rects;
-        detector.PreProcession(src);
-        detector.findlamp(rects);
-        rect=detector.boudingLamp(rects);
+
+//        vector<cv::RotatedRect> rects;
+//        detector.PreProcession(src);
+//        detector.findlamp(rects);
+//        rect=detector.boudingLamp(rects);
 
 //        rect = detector.getTargetAera(src);
 //        Point2f vertices[4];
@@ -50,6 +51,7 @@ int main( int argc, char** argv )
 //        for (int i = 0; i < 4; i++) {
 //          line(src, vertices[i], vertices[(i + 1) % 4], CV_RGB(0, 255, 0), 3);
 //        }
+        rect = detector.getTargetArea(src);
         Point2f vertices[4];
         rect.points(vertices);
         for (int i = 0; i < 4; i++) {

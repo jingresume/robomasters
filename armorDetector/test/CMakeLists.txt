@@ -1,0 +1,2 @@
+ADD_EXECUTABLE(armorDetertor test.cpp)
+TARGET_LINK_LIBRARIES(armorDetertor myrobomaster)
